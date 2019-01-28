@@ -4,9 +4,9 @@ import mysql.connector
 from flask_restful import Resource, Api
 
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="",
+    host="mysql://mysql:3306/",
+    user="learnapp",
+    passwd="3646633Xx",
     database="learnapp"
 )
 
